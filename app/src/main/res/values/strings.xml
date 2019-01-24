@@ -3,4 +3,6 @@
     <string name="bind_service">Bind service</string>
     <string name="unbind_service">Unbind service</string>
     <string name="generate_random_number">Generate random number</string>
+    <string name="local_service_started">Local service started</string>
+    <string name="service_not_bound">Service not bound.</string>
 </resources>

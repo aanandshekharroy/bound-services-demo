@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <service android:name=".RandomNumberGeneratorService"
+                 android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.boundservices.RandomNumberGeneratorService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
